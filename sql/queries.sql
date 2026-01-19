@@ -1,6 +1,7 @@
-
-SELECT brand, model, year, color, price
+SELECT 
+    year,
+    COUNT(*) AS "Количество",
+    STRING_AGG(CONCAT(brand, ' ', model), ', ') AS "Модели"
 FROM cars
-WHERE year BETWEEN 2021 AND 2023
-  AND price BETWEEN 1000000 AND 3000000
-ORDER BY year DESC, price ASC;
+GROUP BY year
+ORDER BY year DESC;
