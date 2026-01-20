@@ -1,0 +1,16 @@
+INSERT INTO cars (brand, model, year, color, price) VALUES
+('Toyota', 'Camry', 2020, 'Silver', 1500000.00),
+('BMW', 'X5', 2022, 'Black', 4500000.50),
+('Lada', 'Vesta', 2021, 'White', 800000.00),
+('Ford', 'Focus', 2019, 'Blue', 950000.00),
+('Hyundai', 'Solaris', 2021, 'Red', 1050000.00),
+('Kia', 'Rio', 2022, 'Grey', 1150000.00),
+('Mercedes', 'E-Class', 2023, 'Black', 5500000.00),
+('Audi', 'A6', 2022, 'Dark Blue', 4800000.00),
+('Volkswagen', 'Tiguan', 2021, 'White', 2200000.00),
+('Nissan', 'Qashqai', 2020, 'Silver', 1650000.00),
+('Skoda', 'Octavia', 2022, 'Green', 1800000.00),
+('Chevrolet', 'Cruze', 2018, 'Yellow', 700000.00),
+('Mazda', 'CX-5', 2023, 'Red', 2500000.00),
+('Renault', 'Duster', 2021, 'Orange', 1200000.00),
+('Volvo', 'XC90', 2022, 'Brown', 5200000.00);
